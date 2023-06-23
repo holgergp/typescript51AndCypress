@@ -21,6 +21,7 @@
       "allowSyntheticDefaultImports": true
     },
     "include": ["**/*.ts", "**/*.tsx"],
+    "typeRoots": ["./node_modules", "./node_modules/@types"],
     "exclude": ["node_modules", "cypress.config.ts", "cypress"]
   }
   
